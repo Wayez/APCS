@@ -1,8 +1,10 @@
 public class greeter{
-    public void greet(){
+
+    public static void greet(){
 	System.out.println("Hello!");
     }
-    public void greetFormal(){
-	System.out.println("Good day sir!");
+    public static void greetFormal(){
+	System.out.println("Greetings good sir!");
     }
+
 }
