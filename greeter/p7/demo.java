@@ -4,12 +4,11 @@ public class demo{
 	bob = new greeter();
 	amy = new greeter("Hola");
 	bob.greet();
-	bob.greet();
-	bob.greet();
-	bob.greet();
+	
+	bob.setCounter(12345);
 	amy.greet();
-	bob.printCounter();
-	//System.out.println(bob.counter);
+	System.out.println(bob.getCounter());
+       
 	//System.out.println(amy.greeting);
 	
     }

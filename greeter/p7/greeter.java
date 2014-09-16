@@ -13,11 +13,17 @@ public class greeter{
 	greeting = s;
 	counter = 0;
     }
-    //
-    public void printCounter(){
-	System.out.println(counter);
+
+    //get/accessor method
+    public int getCounter(){
+	return counter;
     }
 
+    //set/mutator method
+    public void setCounter(int v){
+	//if(v >= 0)
+	counter = v;
+    }
 
     //other methods
     public void greet(){
