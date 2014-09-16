@@ -1,10 +1,21 @@
 public class greeter{
+    //instance variables - the information each object can remember
+    String greeting;
 
-    public static void greet(){
-	System.out.println("Hello!");
+    //constructor - the method that is called to instantiate an object
+    public greeter(){
+	greeting = "Hello!!!";
     }
-    public static void greetFormal(){
-	System.out.println("Greetings good sir!");
+
+    public greeter(String s){
+	greeting = s;
     }
+
+
+    //other methods
+    public void greet(){
+	System.out.println(greeting);
+    }
+
 
 }
