@@ -5,5 +5,10 @@ public class demo{
 	amy = new greeter("Hola");
 	bob.greet();
 	amy.greet();
+	//System.out.println(bob.x);
+	bob.greet();
+	bob.setCounter(10);
+	System.out.println(bob.getCounter());
+	
     }
 }
