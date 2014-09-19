@@ -14,6 +14,10 @@ A personal greeter has:
 -Instance variables: greeting, name 
 -set/get methods for the instance variables.
 -greet() method that will combine the greeting with the person's name and return that string.
+-constructors that take:
+   (name,greeting)  : uses the provided name+greeting
+   (name)	    : assumes the greeting is "Hello", uses the provided name.
+   ()		    : gives the name "Bob" and the greeting "Hello"
 
 If the greeting is "Hello" and the name is "Bob" the greet command returns:
 "Hello Bob"
